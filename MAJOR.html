@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="MYSTYLE.css">
+</head>
+<body>
+  
+  <h1>Majoring in IT</h1>
+  <p>IT was not what I originally planned on doing at all until last semester. Throughout high school as well as the beginning of last semester, I planned on majoring in Art and focusing on graphic design. It wasn't until I really struggled with the idea of being stuck with only one form of media. I really enjoyed audio production, video editing, and special effects and I feel like I would've lost all that with just graphic design. IT however was a clear choice for me and provided me with everything I was looking for!</p>
+  
+  <h2>Coding</h2>
+  <p>Before starting this major I had never done any code before. I have learned a lot already so here's an example of  code I've done so far.</p>
+  
+  <h3>List Loops Python</h3>
+
+  <pre>
+  <code>
+#total of numbers
+list = ["6","5","3","8","4","2","5","4","11","43","1","17","27","90","77","62","51","47","82","86","20"]
+
+number_of_elements = len(list)
+print("How many numbers are in this list:", number_of_elements)
+
+
+#sum
+numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11, 43, 1, 17, 27, 90, 77, 62, 51, 47, 82, 86, 20]
+
+sum = 0
+
+for value in numbers:
+ sum = sum + value
+
+print("The sum of these numbers is",sum)
+
+
+#average
+list = ["6","5","3","8","4","2","5","4","11","43","1","17","27","90","77","62","51","47","82","86","20"]
+
+average = sum / len(list)
+
+for value in numbers:
+ sum = sum + value
+
+print("The average of these numbers is", average)
+
+
+#print all numbers in list
+print()
+print("Printing all list items:")
+
+list = ["6","5","3","8","4","2","5","4","11","43","1","17","27","90","77","62","51","47","82","86","20"]
+x = 0
+while x < len(list):
+ print("Item", x, "is -", list[x])
+ x = x + 1
+ 
+
+#print every other number in list
+print()
+print("Printing every other list item:")
+
+
+list = ["6","5","3","8","4","2","5","4","11","43","1","17","27","90","77","62","51","47","82","86","20"]
+
+x = 0
+for index, element in enumerate(list):
+ if index % 2 == 0:
+  print("Item", x, "is -", element)
+  x = x + 2
+  
+#bonus even and odd
+print()
+print("Bonus: Printing even numbered values from the list:")
+
+list = [6, 5, 3, 8, 4, 2, 5, 4, 11, 43, 1, 17, 27, 90, 77, 62, 51, 47, 82, 86, 20]
+
+i = 0
+
+while i < len(list):
+ if(list[i] % 2 == 0):
+  print("Item", i, "is even -", list[i])
+ else:
+  print("Item", i, "is odd -", list[i])
+ i = i + 1 
+
+</pre>
+</code>
+  
+  <a href="README.html">Back To Home</a>
+  
+  </html>
+  </body>
